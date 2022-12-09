@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0de965f2e710c1c489ead8e62cd25da0, type: 3}
+  m_Name: Icosphere 1 Painting Data
+  m_EditorClassIdentifier: 
+  hullData: {fileID: 11400000, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+  sourceMesh: {fileID: 289301614986012343, guid: b8eb3d577a066a644a9002e861503e59, type: 3}
+  activeHull: 0
+  faceThickness: 0.1
+  hulls:
+  - name: Hull 1
+    isVisible: 1
+    type: 5
+    colour: {r: 0, g: 1, b: 1, a: 0.7}
+    material: {fileID: 0}
+    enableInflation: 0
+    inflationAmount: 0.01
+    boxFitMethod: 1
+    isTrigger: 0
+    isChildCollider: 1
+    selectedFaces: 8200000083000000740000007200000036010000350100003901000066000000840000006b000000810000006a000000330100007300000086000000890000006c000000670000007700000076000000750000003a0100003b0100003d0100003e010000410100004001000044010000790000007800000043010000460100004701000068000000490100007a0000008b0000008a000000a9010000ab010000880000006e0000006d0000007c0000007b00000024010000230100004c0100004d0100007d000000870000007e0000006900000064000000700000006f0000002a01000027010000290100007100000065000000300100002c0100002d01000032010000800000007f00000085000000aa010000ac010000ad010000
+    collisionMesh: {fileID: 209244565473171347, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    faceCollisionMesh: {fileID: 0}
+    faceBoxCenter: {x: 0, y: 0, z: 0}
+    faceBoxSize: {x: 0, y: 0, z: 0}
+    faceAsBoxRotation: {x: 0, y: 0, z: 0, w: 0}
+    autoMeshes:
+    - {fileID: 3778646252928881283, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: -3144245043171522321, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: 842087114931616583, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: -2344037208317096206, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: 7445854037750829632, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: 1319645511515250351, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: -2208054423409347440, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: 2751425474206258372, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: -2749774700514957251, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: 4985726588021557141, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: -6545406649469861789, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: 1148927500680011548, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: 6141593942054886273, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: 3500636018105202263, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: 8944793867418416215, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: -1088694100968871321, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: 6318702834751963096, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: -7018615582015130372, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: -3751496325830600766, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: 7480597687646441069, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: -8519292166188280366, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: 1255364236532087528, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: 6092136801987749879, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: 1213027302536964776, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: -4714916084103580821, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    - {fileID: 4122198457651410319, guid: 0cb9cdeb8b2ddc448985138a66487393, type: 2}
+    hasColliderError: 0
+    numColliderFaces: 96
+    noInputError: 0
+  autoHullPreset: 1
+  vhacdParams:
+    concavity: 0.001
+    alpha: 0.05
+    beta: 0.05
+    minVolumePerCH: 0.0001
+    resolution: 100000
+    maxNumVerticesPerCH: 64
+    planeDownsampling: 4
+    convexhullDownsampling: 4
+    pca: 0
+    mode: 0
+    convexhullApproximation: 1
+    oclAcceleration: 0
+    maxConvexHulls: 1024
+    projectHullVertices: 1
+  hasLastVhacdTimings: 0
+  lastVhacdPreset: 1
+  lastVhacdDurationSecs: 0

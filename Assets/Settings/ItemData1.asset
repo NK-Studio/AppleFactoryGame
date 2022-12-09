@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf18ed65b2c5b1e4db53550851e19186, type: 3}
+  m_Name: ItemData1
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 4544519397785045823, guid: ba2ea96b56a1b044aa5da2c55f8c655a, type: 3}
+  DropSpeed: 3
